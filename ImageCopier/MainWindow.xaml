@@ -1,0 +1,21 @@
+﻿<Window x:Class="ImageCopier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageCopier"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel x:Name="stack">
+        <Grid>
+            <Label Content="Obrázek pro kopírování: "/>
+            <TextBox x:Name="tb_path" Margin="4" Padding="2" Grid.Column="1"/>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Content="Přidat kurvítko" Margin="4" Padding="10, 2" HorizontalAlignment="Center" Click="Button_Click"/>
+    </StackPanel>
+</Window>

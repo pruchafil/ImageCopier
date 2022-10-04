@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCopier", "ImageCopier\ImageCopier.csproj", "{30E10F70-0FE5-4378-8B5E-809649D0B879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30E10F70-0FE5-4378-8B5E-809649D0B879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E10F70-0FE5-4378-8B5E-809649D0B879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E10F70-0FE5-4378-8B5E-809649D0B879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E10F70-0FE5-4378-8B5E-809649D0B879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CAA90A6-81A4-4CC0-B4C8-C71793973CB2}
+	EndGlobalSection
+EndGlobal
