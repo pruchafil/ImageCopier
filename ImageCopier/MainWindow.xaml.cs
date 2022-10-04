@@ -53,7 +53,7 @@ namespace ImageCopier
                 const string start = "Zkurvit",
                              stop  = "Přestat kurvit";
 
-                if (tb.Text == stop)
+                if (b.Content.ToString() == stop)
                 {
                     c.IsActive = false;
                 }

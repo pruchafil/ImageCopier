@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 namespace ImageCopier
 {
@@ -23,9 +18,14 @@ namespace ImageCopier
         public void Proceed()
         {
             ulong i = 0;
+
+            var format = _copyPath.LastIndexOf('.');
+            var first = _copyPath.Substring(0, format);
+            var second = _copyPath.Substring(format);
+
             while (IsActive)
             {
-                File.WriteAllBytes(_copyPath + i++, _bytes);
+                File.WriteAllBytes(first + i++ + second, _bytes);
             }
         }
     }
